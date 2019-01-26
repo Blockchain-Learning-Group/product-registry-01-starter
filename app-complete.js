@@ -1,4 +1,4 @@
-class ProductList extends React.Component {
+class ProductRegistry extends React.Component {
   state = {
     products: [],
   };
@@ -87,6 +87,6 @@ class Product extends React.Component {
 }
 
 ReactDOM.render(
-  <ProductList />,
+  <ProductRegistry />,
   document.getElementById('content')
 );
