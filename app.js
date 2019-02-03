@@ -1,4 +1,4 @@
-class ProductList extends React.Component {
+class ProductRegistry extends React.Component {
   render() {
     return (
       <div className='ui unstackable items'>
